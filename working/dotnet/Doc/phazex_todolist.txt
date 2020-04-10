@@ -1,0 +1,69 @@
+FRAMEWORK ISSUES
+- Hand count in scores!
+- Is possible to run out of cards and crash PhazeX
+- Order by Color doesn't work
+- Scores::Check turns skipped
+- After new hand, fix slow down / speed up hand end -- timer?
+- Can freeze the server when connecting
+- Game start timer is 1 second, should be 5 / 10.
+
+
+PXCLIENT ISSUES
+- fix so that when always sort by number is enabled, hand context menu sort by color is disabled and vice versa
+- When somebody plays a card on a group, make sure that the proper group gets displayed
+- When discarding, check to see if our groups work. If so, ask if we want to meld. (this should be an option).
+- When discarding, check to see if our groups cards == -1 + hand cards. If so, ask if we want to meld (this should be an option).
+- When order by * is checked, getting a card doesn't update hand.
+- Don't let ENTER on chat text box result in BEEP
+- If we resize the window and the chat is not shown, and we show the chat, it hasn't been resized. You have to resize the window to get it anchored right.
+- Show current winner in scores
+- If we assign a number to a wild card when we play it on the table, and it doesn't fit, the number does not get unassigned.
+- Myturn is incorrect after we meld.
+- If we have all cards in melds and discard skip card, it just discards.
+- Phaze node expansion doesn't work.
+- When game ends, other players who aren't on phaze 10 but finished their phaze are on :: (completed_phaze + 1) + " (done)"
+- Should not be able to play skip on colors. This is wrong on a fundamental level. The server should not allow this.
+- (known issue?) If we assign a wild, try to play it, it's incorrect, we cannot unassign the wild card (although note that the context menus are not updated).
+- GraphicCardPanel doesn't draw correctly when minimized!
+- Cards do not get assigned "smartly" when we play on the table
+- shouldn't have to assign wild on color set!
+- order player list box
+
+
+
+PXCC ISSUES
+7 Blue Wild
+83 Yellow 10
+92 Green 11
+100 Green 12
+Assign Wild card?
+- Also, tell type of group when assigning wild card
+- Needs to take "ready" as command line param
+
+
+
+
+
+
+OLD TO DO LIST (STILL VALID?)
+*** implement rules server -- check that it works!
+look into case if rules port == conn port
+
+check that when a group is added to the list, that all cards are ordered (correctly)!
+	[0]    Run of 7 cards
+	Green 7
+	Green Wild (6)
+	Green 5
+	Green 4
+	Blue 3
+	Red 2
+	Red 1
+	Blue Wild (8)
+
+make server send turn end when discard! this way if we do something wrong, the client doesn't get out of balance.
+server does not disconnect if 3 players connected, 2 drop; also does not exit
+server should check when player logs off to check to see if everybody is ready
+write deck::shuffleandaddunused
+client needs to save idea that other client may be disconnected -- and take this into account when skipped!
+server -- when returning card that has been discarded, make sure that we notify that it's their turn still (NOT turn start).
+change so that disconnect happens all at once and disconnect message does not appear if game has stopped

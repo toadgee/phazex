@@ -1,0 +1,142 @@
+error codes:
+
+pxFramework (100 - 999)
+100 - unable to connect
+101 - disconnect
+102 - unable to cancel server game
+103 - unable to send
+104 - unable to decode network message
+105 - unable to create tcplistener
+106 - unable to start connection server
+107 - unable to start Rules server
+108 - Unknown message from client received
+109 - Bad message received
+110 - Unable to order hand by color
+111 - Unable to order hand by number
+
+
+pxDotNet
+1000 - Unable to run MainWindow()
+1001 - Unable to reset wild cards in group
+1002 - Unable to invoke GameStartedDelegate
+1003 - Unable to Meld
+1004 - Unable to invoke MeldDelegate
+1005 - Unable to invoke UpdateMeldDelegate
+1006 - Unable to invoke UpdateTableDelegate
+1007 - Unable to invoke UpdateDiscardDelegate
+1008 - Update to cast handPanel control to a graphic card
+1009 - Unable to remove controls from the hand panel
+1010 - Unable to create a new graphic card to add to the hand panel
+1011 - Unable to invoke UpdateHandDelegate
+1012 - Unable to invoke UpdatePlayerListDelegate
+1013 - Unable to invoke UpdateScoreboardDelegate
+1014 - Unable to invoke UpdatePhazeRulesDelegate
+1015 - Unable to invoke UpdateTitleDelegate
+1016 - Unable to invoke DisconnectDelegate
+1017 - Unable to invoke TurnStartedDelegate
+1018 - Unable to invoke SetMessageDelegate
+1019 - Unable to cast handPanel control to a graphic card
+1020 - Unable to invoke UpdateCardContextMenusDelegate
+1021 - Error setting the main meld panel to the new group.
+1022 - Unable to clear the current group
+1023 - Unable to discard card
+1024 - Unable to add a card to the meld
+1025 - Unable to remove a card from the meld
+1026 - Unable to play a card
+1027 - Bad message received
+1028 - Error message received
+1029 - Unable to pick up the discard from the discard pile.
+1030 - Unable to assign wild card
+1031 - Unable to invoke NewHandDelegate
+1032 - Unable to remove wild card from meld, reassign, and return to meld in updated order
+1033 - Unable to add message to window!
+1034 - Unable to invoke ClearMeldsDelegate
+1035 - Unable to clear melds
+1036 - Unable to invoke SelectPhazeRuleOnlyDelegate
+1037 - Unable to invoke ShowWinnerResultsDelegate
+1038 - Unable to invoke UpdatePlayerLabelDelegate
+1039 - Unable to invoke AddChatMessageDelegate
+1040 - Current meld group is null
+1041 - Unable to remove card from current meld group
+1042 - Unable to invoke PlayerIsReadyDelegate
+1043 - Unable to invoke AddSystemMessageDelegate
+1044 - 
+1045 - 
+1046 - 
+1047 - 
+1048 - 
+1049 - 
+1050 - 
+1051 - 
+1052 - 
+1053 - 
+1054 - 
+1055 - 
+1056 - 
+1057 - 
+1058 - 
+1059 - 
+1060 - 
+1061 - 
+1062 - 
+1063 - 
+1064 - 
+1065 - 
+1066 - 
+1067 - 
+1068 - 
+1069 - 
+1070 - 
+1071 - 
+1072 - 
+1073 - 
+1074 - 
+1075 - 
+1076 - 
+1077 - 
+1078 - 
+1079 - 
+1080 - 
+1081 - 
+1082 - 
+1083 - 
+1084 - 
+1085 - 
+1086 - 
+1087 - 
+1088 - 
+1089 - 
+1090 - 
+1091 - 
+1092 - 
+1093 - 
+1094 - 
+1095 - 
+1096 - 
+1097 - 
+1098 - 
+1099 - 
+1100 - Unable to draw graphic card (AssignWildForm)
+1101 - Unable to determine card color (AssignWildForm)
+1102 - 
+1103 - 
+1104 - 
+
+1200 - Couldn't start computer player
+1201 - 
+1202 - 
+1203 - 
+1204 - 
+
+
+PhazeX Computer Player
+2000 - Unable to connect to localhost!
+2001 - 
+2002 - 
+2003 - 
+2004 - 
+2005 - 
+2006 - 
+2007 - 
+2008 - 
+2009 - 

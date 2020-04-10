@@ -1,0 +1,9 @@
+perf numbers
+
+svn 115:
+2010-09-19 13:01:02.693 PlayGame[27109:a0f] TOTALS
+2010-09-19 13:01:02.693 PlayGame[27109:a0f] Took 5232 milliseconds per game, 10000 games
+2010-09-19 13:01:02.694 PlayGame[27109:a0f] Took 16 milliseconds per turn, 3108402 turns
+2010-09-19 13:01:02.694 PlayGame[27109:a0f] Took 366 milliseconds per hand, 142559 hands
+
+working:
